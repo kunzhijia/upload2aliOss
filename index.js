@@ -46,10 +46,11 @@ const upload = async (folder) => {
   if (res.length > 0) {
     await client.deleteMulti(res.map(item => item.name))
   }
-  
+
   return uploadFile(client, folder, aliOSSBasePath)
 }
 
+//执行上传，参数传入目标目录，默认为"dist"
+
 upload()
 
-console.log("TCL: upload", `${cwd}/dist`)
