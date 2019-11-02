@@ -8,7 +8,7 @@
   },
   "author": "",
   "bin": {
-    "upload2aliOss": "./index.js"
+    "upload2alioss": "./index.js"
   },
   "license": "ISC",
   "dependencies": {
