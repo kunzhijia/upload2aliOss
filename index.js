@@ -41,7 +41,6 @@ const upload = async (folder) => {
 
   res = res.reduce((sum, item) => sum.concat(item.objects || []), [])
 
-  console.log(res.map(item => item.name))
 
   if (res.length > 0) {
     await client.deleteMulti(res.map(item => item.name))
