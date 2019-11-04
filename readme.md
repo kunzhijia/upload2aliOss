@@ -3,9 +3,9 @@
 ## 使用
 
 ```
-npm i upload2aliOss
+npm i upload2alioss -g
 
-upload2aliOss
+upload2alioss
 ```
 
 ## env config
